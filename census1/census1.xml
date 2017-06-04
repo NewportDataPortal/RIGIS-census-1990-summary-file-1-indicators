@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><metadata><idinfo><citation><citeinfo><origin>U.S. Census</origin><origin>RIGIS</origin><pubdate>19910601</pubdate><title>U.S. Census 1990 Rhode Island Data; Source Data &amp; Calculated Percentages ; s44dbg91</title><geoform >vector digital data</geoform><pubinfo ><pubplace>Providence, Rhode Island</pubplace><publish>RIGIS</publish></pubinfo><othercit>Suggested bibliographic reference: RIGIS, 1991. U.S. Census 1990 Rhode Island Data; Source Data &amp; Calculated Percentages ; s44dbg91. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 9 October 2014).</othercit><onlink>http://www.rigis.org</onlink><lworkcit><citeinfo><origin>RIGIS</origin><pubdate>1991</pubdate><title>RIGIS Database</title><geoform>vector digital data</geoform><onlink>http://www.rigis.org</onlink></citeinfo></lworkcit></citeinfo></citation><descript><abstract>U.S. Census 1990 population and housing information by town, tract, and block group level as derived from U.S. Census STF1a by source data count and calculated percentages.</abstract><purpose>Statistical analysis of demographic data tract.</purpose></descript><timeperd><timeinfo><sngdate><caldate>199106</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc >-71.863987</westbc><eastbc >-71.117391</eastbc><northbc >42.018862</northbc><southbc >41.145884</southbc></bounding></spdom><keywords ><theme ><themekt >ISO 19115 Topic Category</themekt></theme><theme><themekt >None</themekt><themekey >society</themekey><themekey >016</themekey><themekey >U.S Census</themekey><themekey >demography</themekey><themekey >population</themekey><themekey>ethnic mix</themekey></theme><place><placekt>GNIS</placekt><placekey>United States</placekey><placekey>Rhode Island</placekey><placekey>northeast</placekey><placekey>New England</placekey></place></keywords><accconst>None.</accconst><useconst>This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+Due to the scale and accuracy of the TIGER Geography. US Census TIGER Geography is best useable with other census data</useconst><ptcontac><cntinfo><cntorgp><cntorg>Rhode Island Division of Planning</cntorg><cntper>Vincent Flood</cntper></cntorgp><cntpos>Supervising Planner</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>One Capitol Hill</address><city>Providence</city><state>RI</state><postal>02908-5872</postal></cntaddr><cntvoice>401-222-1243</cntvoice><cntemail>vincent.flood@doa.ri.gov</cntemail></cntinfo></ptcontac><browse><browsen>http://www.rigis.org/images/metadata/society/rimaps.gif</browsen><browset>GIF</browset></browse><datacred>U.S. Census; RIGIS</datacred></idinfo><dataqual><attracc><attraccr>not to RIGIS standards-us census data;</attraccr></attracc><logic>Data checked by U.S. census</logic><complete>visual comparison with RIGIS 24000 data; not to RIGIS standards-us census data;
+topologically complete arc-info polygon coverage</complete><posacc ><horizpa><horizpar >plus or minus 500 feet</horizpar></horizpa></posacc><lineage><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1990</pubdate><title>RI maps volume 1 databasics inc</title></citeinfo></srccite><srcscale>100000</srcscale><typesrc>Tables</typesrc><srctime><timeinfo><sngdate><caldate>1990</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>U.S. Census</srccitea><srccontr>Source info
+U.S. census file stf1a 
+databasics inc - Providence RI 
+RI maps volume 1 databasics inc</srccontr></srcinfo><procstep><procdesc >us census block group polygons were converted to arc info spatial data format and selected statistical fields were joined to the pat file</procdesc><srcused Name="Historic_Districts_s44chd99">rimaps volume 1 databasics inc</srcused><procdate  Name="Historic_Candidate_Sites_s44chc92">1991</procdate></procstep><procstep><procdesc>Updated Point of Contact information for this dataset from "RIGIS Coordinator" to "Vincet Flood."</procdesc><procdate>20150528</procdate><proccont><cntinfo><cntorgp><cntorg>University of Rhode Island Environmental Data Center</cntorg><cntper>Erica Tefft</cntper></cntorgp><cntpos>Research Associate</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>Coastal Institute</address><address>1 Greenhouse Road</address><city>Kingston</city><state>RI</state><postal>02881</postal></cntaddr><cntvoice>401-874-5054</cntvoice><cntemail>erica@edc.uri.edu</cntemail></cntinfo></proccont></procstep></lineage></dataqual><spdoinfo  Name="Historic_Sites_s44chs99"><direct Name="label" >Vector</direct><ptvctinf Name="label"><sdtsterm Name="Census_1990_s44dbg91"><sdtstype Name="tic" >G-polygon</sdtstype><ptvctcnt >891</ptvctcnt></sdtsterm><sdtsterm Name="label"><sdtstype >Label point</sdtstype><ptvctcnt >891</ptvctcnt></sdtsterm><sdtsterm ><sdtstype Name="tic">GT-polygon composed of chains</sdtstype><ptvctcnt >891</ptvctcnt></sdtsterm><sdtsterm ><sdtstype >Point</sdtstype><ptvctcnt >28</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref Name="arc"><horizsys ><planar Name="arc"><gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone >3800</spcszone><transmer><sfctrmer >0.999994</sfctrmer><longcm >-71.500000</longcm><latprjo >41.083333</latprjo><feast >328083.333333</feast><fnorth >0.000000</fnorth></transmer></spcs></gridsys><planci ><plance >coordinate pair</plance><coordrep ><absres Name="label" >0.000512</absres><ordres >0.000512</ordres></coordrep><plandu >survey feet</plandu></planci></planar><geodetic><horizdn Name="polygon" >North American Datum of 1983</horizdn><ellips >Geodetic Reference System 80</ellips><semiaxis >6378137.000000</semiaxis><denflat >298.257222</denflat></geodetic></horizsys><vertdef ><altsys Name="Historic_Candidate_Sites_s44chc92"><altres >0.000010</altres><altenc >Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><eainfo ><detailed Name="Census_1990_s44dbg91"><enttyp Name="polygon"><enttypl >Census_1990_s44dbg91</enttypl></enttyp><attr ><attrlabl >Shape</attrlabl><attrdef >Feature geometry.</attrdef><attrdefs Name="polygon">ESRI</attrdefs><attrdomv ><udom >Coordinates defining the features.</udom></attrdomv></attr><attr ><attrlabl>S45</attrlabl></attr><attr ><attrlabl >OBJECTID</attrlabl><attrdef >Internal feature number.</attrdef><attrdefs >ESRI</attrdefs><attrdomv ><udom >Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl >AREA</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>ESRI</attrdefs><attrdomv ><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr ><attrlabl >PERIMETER</attrlabl><attrdef >Perimeter of feature in internal units.</attrdef><attrdefs Name="arc">ESRI</attrdefs><attrdomv Name="tic"><udom >Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr Name="arc"><attrlabl >CTBG</attrlabl></attr><attr Name="polygon"><attrlabl >TOWN</attrlabl></attr><attr ><attrlabl >ABBREV</attrlabl></attr><attr ><attrlabl >FMCDCCD90</attrlabl></attr><attr Name="polygon"><attrlabl >CTBNA90</attrlabl></attr><attr Name="shlcls_05.pat"><attrlabl >BG90</attrlabl></attr><attr Name="polygon"><attrlabl >M1</attrlabl></attr><attr ><attrlabl >M2</attrlabl></attr><attr ><attrlabl >M3</attrlabl></attr><attr ><attrlabl Name="label">M4</attrlabl></attr><attr Name="tic"><attrlabl >M5</attrlabl></attr><attr ><attrlabl >M6</attrlabl></attr><attr ><attrlabl >M7</attrlabl></attr><attr Name="polygon"><attrlabl >M8</attrlabl></attr><attr Name="polygon"><attrlabl Name="annotation">M9</attrlabl></attr><attr ><attrlabl >M10</attrlabl></attr><attr ><attrlabl >M11</attrlabl></attr><attr ><attrlabl >M12</attrlabl></attr><attr><attrlabl >M13</attrlabl></attr><attr ><attrlabl Name="nblulc500.aat">M14</attrlabl></attr><attr Name="tic"><attrlabl >M15</attrlabl></attr><attr ><attrlabl >M16</attrlabl></attr><attr ><attrlabl Name="label">M17</attrlabl></attr><attr Name="label"><attrlabl >M18</attrlabl></attr><attr ><attrlabl >M19</attrlabl></attr><attr ><attrlabl >M20</attrlabl></attr><attr ><attrlabl >M21</attrlabl></attr><attr ><attrlabl >M22</attrlabl></attr><attr Name="annotation"><attrlabl >M23</attrlabl></attr><attr ><attrlabl >M24</attrlabl></attr><attr ><attrlabl >M25</attrlabl></attr><attr ><attrlabl >M26</attrlabl></attr><attr ><attrlabl >M27</attrlabl></attr><attr ><attrlabl >M28</attrlabl></attr><attr ><attrlabl >M29</attrlabl></attr><attr ><attrlabl >M30</attrlabl></attr><attr ><attrlabl >M31</attrlabl></attr><attr ><attrlabl >M32</attrlabl></attr><attr ><attrlabl >M33</attrlabl></attr><attr ><attrlabl >M34</attrlabl></attr><attr ><attrlabl >M35</attrlabl></attr><attr><attrlabl >M36</attrlabl></attr><attr ><attrlabl >M37</attrlabl></attr><attr ><attrlabl >M38</attrlabl></attr><attr ><attrlabl >M39</attrlabl></attr><attr ><attrlabl >M40</attrlabl></attr><attr ><attrlabl >S1</attrlabl></attr><attr><attrlabl >S2</attrlabl></attr><attr ><attrlabl >S3</attrlabl></attr><attr ><attrlabl >S4</attrlabl></attr><attr ><attrlabl >S5</attrlabl></attr><attr ><attrlabl Name="nblulc500.pat">S6</attrlabl></attr><attr><attrlabl>S7</attrlabl></attr><attr><attrlabl Name="nblulc500.pat">S8</attrlabl></attr><attr><attrlabl>S9</attrlabl></attr><attr><attrlabl>S10</attrlabl></attr><attr><attrlabl>S11</attrlabl></attr><attr><attrlabl>S12</attrlabl></attr><attr><attrlabl>S13</attrlabl></attr><attr><attrlabl>S14</attrlabl></attr><attr><attrlabl>S15</attrlabl></attr><attr><attrlabl>S16</attrlabl></attr><attr><attrlabl>S17</attrlabl></attr><attr><attrlabl>S18</attrlabl></attr><attr><attrlabl>S19</attrlabl></attr><attr><attrlabl Name="cstlwet.pat">S20</attrlabl></attr><attr ><attrlabl Name="nbaywet.pat">S21</attrlabl></attr><attr><attrlabl Name="cstlwet.pat">S22</attrlabl></attr><attr ><attrlabl>S23</attrlabl></attr><attr><attrlabl Name="nbaywet.pat">S24</attrlabl></attr><attr><attrlabl>S25</attrlabl></attr><attr><attrlabl Name="nbaywet.pat">S26</attrlabl></attr><attr><attrlabl>S27</attrlabl></attr><attr><attrlabl>S28</attrlabl></attr><attr><attrlabl>S29</attrlabl></attr><attr><attrlabl>S30</attrlabl></attr><attr><attrlabl>S31</attrlabl></attr><attr><attrlabl>S32</attrlabl></attr><attr><attrlabl>S33</attrlabl></attr><attr ><attrlabl>S34</attrlabl></attr><attr><attrlabl >S35</attrlabl></attr><attr ><attrlabl >S36</attrlabl></attr><attr ><attrlabl >S37</attrlabl></attr><attr><attrlabl>S38</attrlabl></attr><attr><attrlabl>S39</attrlabl></attr><attr><attrlabl>S40</attrlabl></attr><attr><attrlabl>S41</attrlabl></attr><attr ><attrlabl>S42</attrlabl></attr><attr><attrlabl>S44</attrlabl></attr><attr><attrlabl>S43</attrlabl></attr><attr><attrlabl >S44DBG91_</attrlabl></attr><attr><attrlabl >S44DBG91_ID</attrlabl></attr><attr><attrlabl >Shape_Length</attrlabl><attrdef >Length of feature in internal units.</attrdef><attrdefs >ESRI</attrdefs><attrdomv><udom >Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl >Shape_Area</attrlabl><attrdef >Area of feature in internal units squared.</attrdef><attrdefs >ESRI</attrdefs><attrdomv><udom >Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed><overview><eaover >RIMAPS1.REF  Reference data file listing to support 
+US Census Data for Rhode Island as contained in:
+RIGIS Database files - RIGIS-CAT-ID 
+s44dtn91 (towns), s44dct91 (census tracts), and s44dbg91 (block groups)
+All Information extracted from:
+RIMAPS Volume 1, Maps 1-40, July 1991 
+A RIMAPS Map Book
+Published by
+Databasics, Inc.
+428 Smith St.
+Providence, RI 02908
+401 351-9120
+Copyright (C) 1991 by Databasics, Inc.
+...................................................
+City and town abbreviations are as follows:
+Barrn              Barrington      
+Brist              Bristol         
+Burrl              Burrilville     
+CFals              Central Falls   
+Chrls              Charlestown     
+Covnt              Coventry        
+Crans              Cranston        
+Cumbr              Cumberland      
+EGren              East Greenwich
+EProv              East Providence 
+Exetr              Exeter          
+Fostr              Foster          
+Glstr              Glocester       
+Hopkn              Hopkinton       
+James              Jamestown       
+Johns              Johnston        
+Lincn              Lincoln         
+LitCm              Little Compton  
+Mdltn              Middletown      
+Narra              Narragansett    
+Newpt              Newport         
+NShor              New Shoreham    
+NKing              North Kingstown 
+NProv              North Providence
+NSmth              North Smithfield
+Pawtk              Pawtucket       
+Ports              Portsmouth      
+Provd              Providence      
+Richm              Richmond        
+Scitu              Scituate        
+Smith              Smithfield      
+SKing              South Kingstown 
+Tvrtn              Tiverton        
+Warrn              Warren          
+Warwk              Warwick 
+Westr              Westerly        
+WGren              West Greenwich  
+WWark              West Warwick    
+Woons              Woonsocket
+..................................................................    
+Source Data Items:  S1-S45 
+Actual Count Data Extracted from:
+U.S. Census 1990 Standard Tape File - STF1                                                        
+==================================== 
+S1. Count of Persons
+S2. Count of Households
+S3. Count of Persons Age 0 To 5
+S4. Count of Persons Age 0 To 18
+S5. Count of Persons Age 15 And Over
+S6. Count of Persons Age 19 And Over
+S7. Count of Persons Age 65 And Over
+S8. Count of Persons Age 85 And Over
+S9. Count of White Persons
+S10. Count of Black Persons
+S11. Count of American Indians
+S12. Count of Asians except Indo-Chinese
+S13. Count of Indo-Chinese
+S14. Count of Persons of Hispanic Origin
+S15. Count of Persons Now Married, except Separated
+S16. Count of Persons Divorced or Separated
+S17. Count of Married Persons 15 And Over
+S18. Count of Persons Not in Group Quarters
+S19. Count of Householders Living Alone
+S20. Count of Female Householders, No Husband Present
+S21. Count of Female Householders with Related Children
+S22. Count of Persons in Group Quarters
+S23. Count of Housing Units
+S24. Count of Occupied Housing Units
+S25. Count of Vacant Housing Units
+S26. Count of Owner Occupied Housing Units
+S27. Count of Renter Occupied Housing Units
+S28. Count of Vacant Housing Units for Rent
+S29. Count of Vacant Housing Units for Sale
+S30. Count of Occupied Housing Units with Owner Age 15-44
+S31. Count of Occupied Housing Units with Renter Age 15-44
+S32. Aggregate Rooms in Housing Units
+S33. Count of Housing Units with More Than 1 Person per Room
+S34. Count of Single Family Detached Homes
+S35. Count of Vacant Housing Units, Vacant 6 or more Months
+S36. Count of Owners Age 65 And Over 
+S37. Count of Renters Age 65 And Over
+S38. Count of Family Households with 6 or More Persons
+S39. Count of Vacant Housing Units for Seasonal Use
+S40. Count of Housing Units with 5+ Units in Structure
+S41. Count of Mobile Homes or Trailers
+S42. Count of Black Homeowners
+S43. Count of Asian Homeowners
+S44. Count of Hispanic Homeowners
+S45. Count of Homeless in Shelters and on Streets
+...........................................................
+Median and Percentage Data M1-40
+As computed from STF1 Source Data by Databasics.
+Almost all values are ratios expressed as percentages.  For example, to compute the data item
+or variable M10 "Percent Hispanic" the numerator is the number of persons of Hispanic origin in
+the block group.  The denominator is the total population of the block group.  Some
+numerators or denominators involve aggregates of finer Census data.  For example, we must
+add together 13 age categories to obtain  M1, a total for ages 0-18.
+M1. Percent of Population Age 0 to 18
+M2. Percent of Population Age 0 to 5
+M3. Percent of Population Age 65 And Over
+M4. Percent of Population Age 85 And Over
+M5. Percent of Population Non-White
+M6. Percent Blacks
+M7. Percent American Indians
+M8. Percent Asians and Pacific Islanders
+M9. Percent Indo-Chinese
+M10. Percent Hispanics
+M11. Percent of Population Currently Married
+M12. Percent Divorced or Separated
+M13. Percent Female Headed Households
+M14. Percent Female Headed Households with Children
+M15. Percent of Population Living Alone
+M16. Percent of Population Living in Group Quarters
+M17. Persons Per Family
+M18. Persons per Occupied House
+M19. Percent Crowded Housing
+M20. Percent Large Family Households
+M21. Percent Single/Detached Houses
+M22. Percent of Houses with 5+ Units per Structure
+M23. Rooms Per House
+M24. Percent Homeless Population
+M25. Percent Mobile Homes or Trailers
+M26. Percent of Homeowners Age 15-44
+M27. Percent of Homeowners Age 65 and Over
+M28. Percent Black Homeowners
+M29. Percent Hispanic Homeowners
+M30. Percent Asian Homeowners
+M31. Percent Vacant Houses
+M32. Percent Vacant Houses, Vacant Over 6 Months
+M33. Percent of Houses Vacant and For Sale
+M34. Percent Seasonal Houses
+M35. Median Value of Houses (X $1000)
+M36. Percent Renter Occupied Houses
+M37. Percent Renters Age 15-44
+M38. Percent Renters Age 65 and Over
+M39. Percent of Houses Vacant and For Rent
+M40. Median Contract Rent
+______________________________________________________________________________
+Subject Index
+This index lists S1-45 (Source Data Items) and M1-M40 (Median or Percentages) by subject heading.
+Age
+M1. Percent of Population Age 0 to 18
+M2. Percent of Population Age 0 to 5
+M3. Percent of Population Age 65 and Over
+M4. Percent of Population Age 85 and Over
+S3. Count of Persons Age 0 to 5
+S4. Count of Persons Age 0 to 18
+S5. Count of Persons Age 15 and Over
+S6. Count of Persons Age 19 and Over
+S7. Count of Persons Age 65 and Over
+S8. Count of Persons Age 85 and Over
+Age of Homeowners
+M26. Percent of Homeowners Age 15 - 44
+M27. Percent of Homeowners Age 65 and Over
+S30. Count of Occupied Housing Units with Owner Age 15 - 44
+S36. Count of Owners Age 65 and Over
+Age of Renters
+M37. Percent of Renters Age 15 - 44
+M38. Percent of Renters Age 65 and Over
+S31. Count of Occupied Housing Units with Renter Age 15 - 44
+S37. Count of Renters Age 65 and Over
+American Indian - see Race
+Apartment Houses
+M22. Percent of Houses with 5+ Units per Structure
+S40. Count of Housing Units with 5+ Units per Structure
+Asian - see Race
+Black - see Race
+Cambodian - see Race
+Condominiums
+M22. Percent of Houses with 5+ Units per Structure
+S40. Count of Housing Units with 5+ Units per Structure
+Divorce/Separation
+M12. Percent Divorced or Separated
+S16. Count of Persons Divorced or Separated
+Elderly - see Age
+Family Size
+M17. Persons per Family
+M20. Percent Large Family Households
+S38. Count of Family Households with 6 or More Persons
+Females
+M13. Percent Female Headed Households
+M14. Percent Female Headed Households with Children
+S20. Count of Female Householders, No Husband Present
+S21. Count of Female Householders with Related Children
+Group Quarters
+M16. Percent of Population Living in Group Quarters
+S22. Count of Persons in Group Quarters
+S18. Count of Persons not in Group Quarters
+Hispanic Origin
+M10. Percent Hispanics
+M29. Percent Hispanic Homeowners
+S14. Count of Persons of Hispanic Origin
+S44. Count of Hispanic Homeowners Housing Units
+Hmong - see Race
+Homeless
+M24. Percent Homeless Population
+S45. Count of Homeless in Shelters and on Streets
+Homeowners
+M21. Percent Single Detached Houses
+M26. Percent of Homeowners Age 15 - 44
+M27. Percent of Homeowners Age 65 and Over
+M28. Percent Black Homeowners
+M29. Percent Hispanic Homeowners
+M30. Percent Asian Homeowners
+S24. Count of Occupied Housing Units
+S26. Count of Owner Occupied Housing Units
+S30. Count of Owner Occupied Housing Units with Owner Age 15 - 44
+S36. Count of Owners Age 65 and Over
+Housing Units
+M19. Percent Crowded Housing
+M21. Percent Single/Detached Houses
+M22. Percent of Houses with 5+ Units per Structure
+M23. Rooms per House
+M25. Percent Mobile Homes or Trailers
+S2. Count of Households (Occupied Housing Units)
+S23. Count of Housing Units 
+S24. Count of Occupied Housing Units (same as S2)
+S25. Count of Vacant Housing Units
+S32. Aggregate Rooms in Housing Units
+S34. Count of Single Family Detached Homes
+S40. Count of Housing Units with 5+ Units in Structure
+S41. Count of Mobile Homes or Trailers     
+Housing Unit Sale/Rent Value
+M35. Median Value of Houses (X $1000)
+M40. Median Value Contract Rent
+Institutionalized Persons - see Group Quarters
+Laotian - see Race
+Married Couples (see also Single Persons)
+M11. Percent of Population Currently Married
+S15. Count of Persons Now Married, Except Separated
+S17. Count of Married Person Age 15 and Over
+Population 
+S1. Count of Persons
+Race 
+American Indians
+M7. Percent of American Indians
+S11. Count of American Indians
+Asians
+M8. Percent Asians and Pacific Islanders
+M9. Percent Indo-Chinese
+S12. Count of Asians Except Indo-Chinese
+S13. Count of Indo-Chinese
+Blacks
+M6. Percent Blacks
+S10. Count of Black Persons
+Hispanics - see Hispanic Origin
+Non-White
+M5. Percent of Population Non-White
+S9. Count of White Persons
+Rent/Renters
+M36. Percent Renter Occupied Houses
+M37. Percent Renters Age 15 - 44
+M38. Percent Renters Age 65 and Over
+M39. Percent of Houses Vacant and For Rent
+M40. Median Contract Rent
+S27. Count of Renter Occupied Housing Units
+S28. Count of Vacant Housing Units for Rent
+S31. Count of Occupied Housing Units with Renter Age 15 - 44
+S37. Count of Renters Age 65 and Over
+Rooms
+M23. Rooms per House
+Sex - see Females
+Single Persons
+M15. Percent of Population Living Alone
+S19. Count of Householders Living Alone
+Spanish - see Hispanic Origin
+Thai - see Race
+Vacant Housing
+M31. Percent Vacant Houses
+M32. Percent Vacant Houses, Vacant Over 6 Months
+M33. Percent of Houses Vacant and For Sale
+M34. Percent Seasonal Houses
+M39. Percent of Houses Vacant and For Rent
+S25. Count of Vacant Housing Units
+S28. Count of Vacant Housing Units For Rent
+S29. Count of Vacant Housing Units For Sale
+S39. Count of Vacant Housing Units For Seasonal Use
+Value - see Housing Unit Sale/Rent Value
+Vietnamese - see Race
+White - see Race</eaover></overview></eainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>University of Rhode Island Environmental Data Center</cntorg><cntper>Erica Tefft</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>1 Greenhouse Road</address><city>Kingston</city><state>RI</state><postal>02881</postal></cntaddr><cntvoice>401-874-5054</cntvoice><cntemail>erica@edc.uri.edu</cntemail><cntinst>email preferred</cntinst></cntinfo></distrib><distliab>This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.</distliab><stdorder><digform><digtinfo><formname>Esri shapefile</formname><filedec>ZIP</filedec></digtinfo><digtopt><onlinopt><computer><networka><networkr>http://www.rigis.org</networkr></networka></computer></onlinopt></digtopt></digform><fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees></stdorder></distinfo><metainfo><metd >20060620</metd><metc><cntinfo><cntorgp><cntorg>RI Department of Administration; Division of Information Technology</cntorg><cntper>N/A</cntper></cntorgp><cntpos>RIGIS Coordinator</cntpos><cntaddr><addrtype>mailing address</addrtype><address>1 Capitol Hill</address><city>Providence</city><state>Rhode Island</state><postal>02908</postal><country>USA</country></cntaddr><cntvoice>401-222-6483</cntvoice><cntfax>401-222-6482</cntfax><cntemail>rigis@admin.ri.gov</cntemail><hours>8:00 - 3:30</hours><cntinst>E-mail preferred</cntinst></cntinfo></metc><metstdn >FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv >FGDC-STD-001-1998</metstdv><mettc >local time</mettc></metainfo></metadata>

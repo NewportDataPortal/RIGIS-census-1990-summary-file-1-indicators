@@ -1,0 +1,442 @@
+ 
+ 
+ RIGIS-CAT-ID    =s44dbg91
+ DATA-SET-IDENT  =rm1bgrp
+ DISTRIB-NOTES   =(c)rigis 1989 contrib by databsics inc
+ THEME-KEYWORDS  =us census  demography population ethnic mix
+ DESCRIPTION1    =us census 1990 block grp data extracted from stf1a
+ DESCRIPTION2    =selected out by census block grp with actual count
+ DESCRIPTION3    =and percntages calculated-not all data on stf1a
+ ACC-REV-DATE    =0691
+ DATA-STRUCTURE  =vector topological with feature attributes
+ COORD-PRECIS    =arc-info single precision
+ INTENDED-USE    =statistical analysis of demographic data tract
+ INTENDED-SCALE  =24000
+ TRANSFER-FORMAT =arc-info export
+ TRANSFER-SIZE   =2-3 mb
+ SPLOBJ-TYPE     =polygon area
+ RESOLUTION      =census block groups
+ SPLOBJ-COUNT    =892  polygons
+ AREA-EXT-BND    =LL 229173.516 23016.117 UR 432053.688 340890.062
+ AREA-EXCL-BND   =none
+ PROJECTION      =transverse mercator
+ COORDSYS-UNIT   =RISPC-feet
+ HORIZ-DATUM     =nad83
+ VERT-DATUM      =na
+ REL-DB-ID       =rm1bgrp-aat
+ REL-DB-ORG      =us census bureau
+ FIELD-NAME1     =town
+ FIELD-CHAR1     =16 c
+ FIELD-DESC1     =name of town in which census block grp is located
+ FIELD-DOM1      =text
+ FIELD-ASSC1     =na
+ FIELD-NAME2     =abbrev
+ FIELD-CHAR2     =5 c
+ FIELD-DESC2     =abbreviated town name
+ FIELD-DOM2      =text
+ FIELD-ASSC2     =rimaps1-ref
+ FIELD-NAME3     =fmcdccd90
+ FIELD-CHAR3     =10 c
+ FIELD-DESC3     =census minor civil division and fips code
+ FIELD-DOM3      =text
+ FIELD-ASSC3     =tiger.doc
+ FIELD-NAME4     =bg90
+ FIELD-CHAR4     =1 c
+ FIELD-DESC4     =1990 block group number
+ FIELD-DOM4      =text
+ FIELD-ASSC4     =tiger.doc
+ FIELD-NAME5     =m1-40
+ FIELD-CHAR5     =5n
+ FIELD-DESC5     =percentage or median level statistic
+ FIELD-DOM5      =text
+ FIELD-ASSC5     =rimaps1-ref
+ FIELD-NAME6     =s1-s45
+ FIELD-CHAR6     =9 i
+ FIELD-DESC6     =source data acutal count
+ FIELD-DOM6      =s1-s45
+ FIELD-ASSC6     =rimaps1-ref
+ SOURCE-CRTR     =us census bureau
+ SOURCE-ORIG1    =us census file stf1a
+ SOURCE-ORIG2    =databasics inc-providence ri
+ BIBLIOG-REF     =rimaps volume 1 databasics inc
+ SOURCE-SCAL     =us census 100000
+ SOURCE-DATE     =1990
+ DATA-DATE       =1991
+ AUTO-EQPT       =pc arc-info
+ AUTO-PROC1      =us census block grp  polygons were converted to
+ AUTO-PROC2      =arc info spatial data format and selected
+ AUTO-PROC3      =statistical fields were joined to the pat file
+ PROC-TOL        =not to rigis standards-us census data
+ PROC-DATE       =0691
+ POS-ACCU        =plus or minus 500 feet
+ POS-ACCUCK      =visual comparison with rigis 24000 data
+ ATTR-ACCU       =not to rigis standards-us census data
+ ATTR-ACCUCK     =by us census
+ DATA-INTEG      =topologically complete arc-info polygon coverage
+ METADATA-LIST   =0998-js
+ CONTACT-TITLE   =rigis coordinator
+ CONTACT-ORG     =ri dept of administration-division of planning
+ CONTACT-ADDR    =one capitol hill
+ CONTACT-CTYST   =providence ri o2908-5872
+ CONTACT-PHONE   =401-222-6483
+ CONTACT-EMAIL   =stach@rigis.doa.state.ri.us
+ 
+  s44dbg91.ref
+
+RIMAPS1.REF  Reference data file listing to support 
+	US Census Data for Rhode Island as contained in:
+        RIGIS Database files - RIGIS-CAT-ID 
+s44dtn91 (towns), s44dct91 (census tracts), and s44dbg91 (block groups)
+
+All Information extracted from:
+RIMAPS Volume 1, Maps 1-40, July 1991 
+
+A RIMAPS Map Book
+Published by
+
+Databasics, Inc.
+428 Smith St.
+Providence, RI 02908
+401 351-9120
+
+Copyright (C) 1991 by Databasics, Inc.
+
+...................................................
+
+City and town abbreviations are as follows:
+
+Barrn              Barrington      
+Brist              Bristol         
+Burrl              Burrilville     
+CFals              Central Falls   
+Chrls              Charlestown     
+Covnt              Coventry        
+Crans              Cranston        
+Cumbr              Cumberland      
+EGren              East Greenwich
+EProv              East Providence 
+Exetr              Exeter          
+Fostr              Foster          
+Glstr              Glocester       
+Hopkn              Hopkinton       
+James              Jamestown       
+Johns              Johnston        
+Lincn              Lincoln         
+LitCm              Little Compton  
+Mdltn              Middletown      
+Narra              Narragansett    
+Newpt              Newport         
+NShor              New Shoreham    
+NKing              North Kingstown 
+NProv              North Providence
+NSmth              North Smithfield
+Pawtk              Pawtucket       
+Ports              Portsmouth      
+Provd              Providence      
+Richm              Richmond        
+Scitu              Scituate        
+Smith              Smithfield      
+SKing              South Kingstown 
+Tvrtn              Tiverton        
+Warrn              Warren          
+Warwk              Warwick 
+Westr              Westerly        
+WGren              West Greenwich  
+WWark              West Warwick    
+Woons              Woonsocket
+
+..................................................................    
+
+
+
+  
+Source Data Items:  S1-S45 
+Actual Count Data Extracted from:
+U.S. Census 1990 Standard Tape File - STF1                                                        
+==================================== 
+
+S1. Count of Persons
+S2. Count of Households
+S3. Count of Persons Age 0 To 5
+S4. Count of Persons Age 0 To 18
+S5. Count of Persons Age 15 And Over
+S6. Count of Persons Age 19 And Over
+S7. Count of Persons Age 65 And Over
+S8. Count of Persons Age 85 And Over
+S9. Count of White Persons
+S10. Count of Black Persons
+S11. Count of American Indians
+S12. Count of Asians except Indo-Chinese
+S13. Count of Indo-Chinese
+S14. Count of Persons of Hispanic Origin
+S15. Count of Persons Now Married, except Separated
+S16. Count of Persons Divorced or Separated
+S17. Count of Married Persons 15 And Over
+S18. Count of Persons Not in Group Quarters
+S19. Count of Householders Living Alone
+S20. Count of Female Householders, No Husband Present
+S21. Count of Female Householders with Related Children
+S22. Count of Persons in Group Quarters
+S23. Count of Housing Units
+S24. Count of Occupied Housing Units
+S25. Count of Vacant Housing Units
+S26. Count of Owner Occupied Housing Units
+S27. Count of Renter Occupied Housing Units
+S28. Count of Vacant Housing Units for Rent
+S29. Count of Vacant Housing Units for Sale
+S30. Count of Occupied Housing Units with Owner Age 15-44
+S31. Count of Occupied Housing Units with Renter Age 15-44
+S32. Aggregate Rooms in Housing Units
+S33. Count of Housing Units with More Than 1 Person per Room
+S34. Count of Single Family Detached Homes
+S35. Count of Vacant Housing Units, Vacant 6 or more Months
+S36. Count of Owners Age 65 And Over 
+S37. Count of Renters Age 65 And Over
+S38. Count of Family Households with 6 or More Persons
+S39. Count of Vacant Housing Units for Seasonal Use
+S40. Count of Housing Units with 5+ Units in Structure
+S41. Count of Mobile Homes or Trailers
+S42. Count of Black Homeowners
+S43. Count of Asian Homeowners
+S44. Count of Hispanic Homeowners
+S45. Count of Homeless in Shelters and on Streets
+
+...........................................................
+Median and Percentage Data M1-40
+As computed from STF1 Source Data by Databasics.
+
+Almost all valuess are ratios expressed as percentages.  For example, to compute the data item
+or variable M10 "Percent Hispanic" the numerator is the number of persons of Hispanic origin in
+the block group.  The denominator is the total population of the block group.  Some
+numerators or denominators involve aggregates of finer Census data.  For example, we must
+add together 13 age categories to obtain  M1, a total for ages 0-18.
+
+
+      M1. Percent of Population Age 0 to 18
+      M2. Percent of Population Age 0 to 5
+      M3. Percent of Population Age 65 And Over
+      M4. Percent of Population Age 85 And Over
+      M5. Percent of Population Non-White
+      M6. Percent Blacks
+      M7. Percent American Indians
+      M8. Percent Asians and Pacific Islanders
+      M9. Percent Indo-Chinese
+      M10. Percent Hispanics
+      M11. Percent of Population Currently Married
+      M12. Percent Divorced or Separated
+      M13. Percent Female Headed Households
+      M14. Percent Female Headed Households with Children
+      M15. Percent of Population Living Alone
+      M16. Percent of Population Living in Group Quarters
+      M17. Persons Per Family
+      M18. Persons per Occupied House
+      M19. Percent Crowded Housing
+      M20. Percent Large Family Households
+      M21. Percent Single/Detached Houses
+      M22. Percent of Houses with 5+ Units per Structure
+      M23. Rooms Per House
+      M24. Percent Homeless Population
+      M25. Percent Mobile Homes or Trailers
+      M26. Percent of Homeowners Age 15-44
+      M27. Percent of Homewowners Age 65 and Over
+      M28. Percent Black Homeowners
+      M29. Percent Hispanic Homeowners
+      M30. Percent Asian Homeowners
+      M31. Percent Vacant Houses
+      M32. Percent Vacant Houses, Vacant Over 6 Months
+      M33. Percent of Houses Vacant and For Sale
+      M34. Percent Seasonal Houses
+      M35. Median Value of Houses (X $1000)
+      M36. Percent Renter Occupied Houses
+      M37. Percent Renters Age 15-44
+      M38. Percent Renters Age 65 and Over
+      M39. Percent of Houses Vacant and For Rent
+      M40. Median Contract Rent
+
+
+______________________________________________________________________________
+Subject Index
+
+This index lists S1-45 (Source Data Items) and M1-M40 (Median or Percentages) by subject heading.
+
+Age
+  
+  M1. Percent of Population Age 0 to 18
+  M2. Percent of Population Age 0 to 5
+  M3. Percent of Population Age 65 and Over
+  M4. Percent of Population Age 85 and Over
+  S3. Count of Persons Age 0 to 5
+  S4. Count of Persons Age 0 to 18
+  S5. Count of Persons Age 15 and Over
+  S6. Count of Persons Age 19 and Over
+  S7. Count of Persons Age 65 and Over
+  S8. Count of Persons Age 85 and Over
+
+Age of Homeowners
+  M26. Percent of Homeowners Age 15 - 44
+  M27. Percent of Homeowners Age 65 and Over
+  S30. Count of Occupied Housing Units with Owner Age 15 - 44
+  S36. Count of Owners Age 65 and Over
+
+Age of Renters
+  M37. Percent of Renters Age 15 - 44
+  M38. Percent of Renters Age 65 and Over
+  S31. Count of Occupied Housing Units with Renter Age 15 - 44
+  S37. Count of Renters Age 65 and Over
+  
+American Indian - see Race
+
+Apartment Houses
+  M22. Percent of Houses with 5+ Units per Structure
+  S40. Count of Housing Units with 5+ Units per Structure
+
+Asian - see Race
+
+Black - see Race
+
+Cambodian - see Race
+
+Condominiums
+  M22. Percent of Houses with 5+ Units per Structure
+  S40. Count of Housing Units with 5+ Units per Structure
+Divorce/Separation
+  M12. Percent Divorced or Separated
+  S16. Count of Persons Divorced or Separated
+
+Elderly - see Age
+
+Family Size
+  M17. Persons per Family
+  M20. Percent Large Family Households
+  S38. Count of Family Households with 6 or More Persons
+
+Females
+  M13. Percent Female Headed Households
+  M14. Percent Female Headed Households with Children
+  S20. Count of Female Householders, No Husband Present
+  S21. Count of Female Householders with Related Children
+
+Group Quarters
+  M16. Percent of Population Living in Group Quarters
+  S22. Count of Persons in Group Quarters
+  S18. Count of Persons not in Group Quarters
+
+Hispanic Origin
+  M10. Percent Hispanics
+  M29. Percent Hispanic Homeowners
+  S14. Count of Persons of Hispanic Origin
+  S44. Count of Hispanic HomeownersHousing Units
+
+Hmong - see Race
+
+Homeless
+  M24. Percent Homeless Population
+  S45. Count of Homeless in Shelters and on Streets
+
+Homeowners
+  M21. Percent Single Detached Houses
+  M26. Percent of Homeowners Age 15 - 44
+  M27. Percent of Homeowners Age 65 and Over
+  M28. Percent Black Homeowners
+  M29. Percent Hispanic Homeowners
+  M30. Percent Asian Homeowners
+  S24. Count of Occupied Housing Units
+  S26. Count of Owner Occupied Housing Units
+  S30. Count of Owner Occupied Housing Units with Owner Age 15 - 44
+  S36. Count of Owners Age 65 and Over
+
+Housing Units
+  M19. Percent Crowded Housing
+  M21. Percent Single/Detached Houses
+  M22. Percent of Houses with 5+ Units per Structure
+  M23. Rooms per House
+  M25. Percent Mobile Homes or Trailers
+  S2. Count of Households (Occupied Housing Units)
+  S23. Count of Housing Units 
+  S24. Count of Occupied Housing Units (same as S2)
+  S25. Count of Vacant Housing Units
+  S32. Aggregate Rooms in Housing Units
+  S34. Count of Single Family Detatched Homes
+  S40. Count of Housing Units with 5+ Units in Structure
+  S41. Count of Mobile Homes or Trailers     
+
+Housing Unit Sale/Rent Value
+  M35. Median Value of Houses (X $1000)
+  M40. Median Value Contract Rent
+  
+Institutionalized Persons - see Group Quarters
+
+Laotian - see Race
+
+Married Couples (see also Single Persons)
+  M11. Percent of Population Currently Married
+  S15. Count of Persons Now Married, Except Separated
+  S17. Count of Married Person Age 15 and Over
+
+Population 
+  S1. Count of Persons
+
+Race 
+  American Indians
+    M7. Percent of American Indians
+    S11. Count of American Indians
+  Asians
+    M8. Percent Asians and Pacific Islanders
+    M9. Percent Indo-Chinese
+    S12. Count of Asians Except Indo-Chinese
+    S13. Count of Indo-Chinese
+  Blacks
+    M6. Percent Blacks
+    S10. Count of Black Persons
+  Hispanics - see Hispanic Origin
+  Non-White
+    M5. Percent of Population Non-White
+    S9. Count of White Persons
+
+Rent/Renters
+  M36. Percent Renter Occupied Houses
+  M37. Percent Renters Age 15 - 44
+  M38. Percent Renters Age 65 and Over
+  M39. Percent of Houses Vacant and For Rent
+  M40. Median Contract Rent
+  S27. Count of Renter Occupied Housing Units
+  S28. Count of Vacant Housing Units for Rent
+  S31. Count of Occupied Housing Units with Renter Age 15 - 44
+  S37. Count of Renters Age 65 and Over
+
+Rooms
+  M23. Rooms per House
+
+Sex - see Females
+
+Single Persons
+  M15. Percent of Population Living Alone
+  S19. Count of Householders Living Alone
+
+Spanish - see Hispanic Origin
+
+Thai - see Race
+
+Vacant Housing
+  M31. Percent Vacant Houses
+  M32. Percent Vacant Houses, Vacant Over 6 Months
+  M33. Percent of Houses Vacant and For Sale
+  M34. Percent Seasonal Houses
+  M39. Percent of Houses Vacant and For Rent
+  S25. Count of Vacant Housing Units
+  S28. Count of Vacant Housing Units For Rent
+  S29. Count of Vacant Housing Units For Sale
+  S39. Count of Vacant Housing Units For Seasonal Use
+
+Value - see Housing Unit Sale/Rent Value
+
+Vietnamese - see Race
+
+White - see Race
+
+
+
+
+
+
+
